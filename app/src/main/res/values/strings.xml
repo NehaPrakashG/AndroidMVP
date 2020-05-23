@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidMVP</string>
+    <string name="LoginSuccess">Login Success</string>
+    <string name="LoginError">Login error</string>
+    <string name="hintemil">Enter email address</string>
+    <string name="hintpass">Enter password</string>
+    <string name="Login">Login</string>
+
+</resources>
