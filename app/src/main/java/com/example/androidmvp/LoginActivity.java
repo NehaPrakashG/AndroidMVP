@@ -10,9 +10,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.androidmvc.R;
-import com.example.androidmvp.Presenter.ILoginPresenter;
+import com.example.androidmvp.Interface.ILoginPresenter;
+import com.example.androidmvp.Interface.ILoginView;
 import com.example.androidmvp.Presenter.LoginPresenter;
-import com.example.androidmvp.View.ILoginView;
 
 public class LoginActivity extends AppCompatActivity implements ILoginView {
 

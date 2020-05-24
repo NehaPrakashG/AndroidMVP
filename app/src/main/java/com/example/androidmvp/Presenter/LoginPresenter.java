@@ -1,7 +1,8 @@
 package com.example.androidmvp.Presenter;
 
+import com.example.androidmvp.Interface.ILoginPresenter;
+import com.example.androidmvp.Interface.ILoginView;
 import com.example.androidmvp.Model.User;
-import com.example.androidmvp.View.ILoginView;
 
 public class LoginPresenter implements ILoginPresenter {
 

@@ -1,4 +1,4 @@
-package com.example.androidmvp.View;
+package com.example.androidmvp.Interface;
 
 public interface ILoginView {
     void OnLoginResult(String result);

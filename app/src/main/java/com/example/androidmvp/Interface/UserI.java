@@ -1,4 +1,4 @@
-package com.example.androidmvp.Model;
+package com.example.androidmvp.Interface;
 
 public interface UserI {
     String getUserID();

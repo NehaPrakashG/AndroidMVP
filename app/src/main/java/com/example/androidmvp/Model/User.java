@@ -3,6 +3,8 @@ package com.example.androidmvp.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
+import com.example.androidmvp.Interface.UserI;
+
 public class User implements UserI {
 
     private String emailId;

@@ -6,4 +6,17 @@
     <string name="hintpass">Enter password</string>
     <string name="Login">Login</string>
 
+    <!-- TODO: Categories on review -->
+    <string name="V_positive">Very Positive</string>
+    <string name="positive">Positive</string>
+    <string name="O_positive">Overwhelmingly Positive</string>
+    <string name="mixed">Mixed</string>
+    <string name="M_positve">Mostly Positive</string>
+    <string name="M_negatve">Mostly Negative</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
