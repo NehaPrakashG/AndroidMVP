@@ -10,14 +10,20 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/view_pager"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        </androidx.viewpager.widget.ViewPager>
+        </androidx.recyclerview.widget.RecyclerView>
+
     </LinearLayout>
 
-
+    <ProgressBar
+        android:id="@+id/pb_load"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
 
 
 </RelativeLayout>

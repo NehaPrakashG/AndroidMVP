@@ -1,7 +1,6 @@
 package com.example.androidmvp.Interface;
 
 import com.example.androidmvp.Model.Deals;
-import com.example.androidmvp.Model.ModelDealList;
 
 import java.util.List;
 
@@ -24,7 +23,7 @@ public interface IDeals {
 
         void hideProgress();
 
-        void setDataToRecyclerView(List<ModelDealList> dealArrayList);
+        void setDataToRecyclerView(List<Deals> dealArrayList);
 
         void onResponseFailure(Throwable throwable);
 

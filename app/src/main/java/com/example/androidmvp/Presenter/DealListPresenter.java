@@ -6,7 +6,7 @@ import com.example.androidmvp.Model.ModelDealList;
 
 import java.util.List;
 
-public class DealListPresenter implements IDeals.Presenter,IDeals.Model.OnFinishedListener {
+public class DealListPresenter implements IDeals.Presenter, IDeals.Model.OnFinishedListener {
     private IDeals.View dealistView;
 
     private IDeals.Model dealListModel;
@@ -16,21 +16,25 @@ public class DealListPresenter implements IDeals.Presenter,IDeals.Model.OnFinish
         dealListModel = new ModelDealList();
     }
 
-
-
     @Override
     public void onFinished(List<Deals> dealArrayList) {
-
+        dealistView.setDataToRecyclerView(dealArrayList);
+        if (dealistView != null) {
+            dealistView.hideProgress();
+        }
     }
 
     @Override
     public void onFailure(Throwable t) {
-
+        dealistView.onResponseFailure(t);
+        if (dealistView != null) {
+            dealistView.hideProgress();
+        }
     }
 
     @Override
     public void onDestroy() {
-        this.dealistView=null;
+        this.dealistView = null;
 
     }
 

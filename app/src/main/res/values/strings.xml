@@ -5,6 +5,7 @@
     <string name="hintemil">Enter email address</string>
     <string name="hintpass">Enter password</string>
     <string name="Login">Login</string>
+    <string name="comnError">Communication Error</string>
 
     <!-- TODO: Categories on review -->
     <string name="V_positive">Very Positive</string>
@@ -13,6 +14,7 @@
     <string name="mixed">Mixed</string>
     <string name="M_positve">Mostly Positive</string>
     <string name="M_negatve">Mostly Negative</string>
+    <string name="Deals">Deals</string>
 
 
 
