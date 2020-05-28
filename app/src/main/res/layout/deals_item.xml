@@ -3,27 +3,45 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_large"
         android:background="@drawable/rectangle_margin"
         android:gravity="center"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
 <TextView
     android:id="@+id/title"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/margin_small"
+    android:textColor="@color/color_Blue"
+    android:textSize="@dimen/text_size_xlarge"
+    android:textStyle="bold"
     tools:ignore="MissingConstraints"/>
         <TextView
     android:id="@+id/price"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_margin="@dimen/margin_small"
+    android:textColor="@color/color_money"
+    android:textSize="@dimen/text_size_large"
     tools:ignore="MissingConstraints"/>
-
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_weight="3"
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

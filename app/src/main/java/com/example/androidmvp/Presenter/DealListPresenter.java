@@ -31,7 +31,14 @@ public class DealListPresenter implements IDeals.Presenter, IDeals.Model.OnFinis
             dealistView.hideProgress();
         }
     }
+    @Override
+    public void getMoreData() {
 
+        if (dealistView != null) {
+            dealistView.showProgress();
+        }
+        dealListModel.getDealsList(this);
+    }
     @Override
     public void onDestroy() {
         this.dealistView = null;

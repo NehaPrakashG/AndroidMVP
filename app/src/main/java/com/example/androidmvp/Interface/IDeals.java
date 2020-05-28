@@ -24,7 +24,6 @@ public interface IDeals {
         void hideProgress();
 
         void setDataToRecyclerView(List<Deals> dealArrayList);
-
         void onResponseFailure(Throwable throwable);
 
     }
@@ -32,7 +31,7 @@ public interface IDeals {
     interface Presenter {
 
         void onDestroy();
-
+        void getMoreData();
 
         void requestDataFromServer();
 

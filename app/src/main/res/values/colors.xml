@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimary">#EAB004</color>
+    <color name="colorPrimaryDark">#E8B826</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <!--color text for title Deals-->
+    <color name="color_Gold">#FFEE5D</color>
+    <color name="color_Red">#F52D1F</color>
+    <color name="color_Blue">#52BDEE</color>
+    <color name="color_LightGreen">#D9EA33</color>
+    <color name="color_money">#7BED79</color>
+
+    <color name="color_black">#0A0A0A</color>
+
 </resources>
